@@ -139,10 +139,12 @@ Looking at our performance improvements for 2018 we can observe a ~4.5x performa
 
 ### What are the advantages or disadvantages of refactoring code?
 
+We can clearly see and measure how by refactoring our code we were able to reuse some of the code we had but still achieve the objective in a simpler more efficient way. 
+
 - Advantages
   - Performance can improve if the right decisions are made during refactoring code
-  - Unnecessary code can be removed allowing the code to run using fewer computing resources
-  - Taking a new look after the main objective of the code has been achieved can result in a simpler solution hence making our code easier to maintain
+  - Unnecessary code can be removed allowing the code to run using fewer computing resources and scale better
+  - Taking a new look after the main objective of the code has been achieved can result in a simpler solution hence making our code easier to read and maintain
 
 - Disadvantages
   - Additional time is required to refactor code which might not be available due to other priorities
@@ -151,7 +153,10 @@ Looking at our performance improvements for 2018 we can observe a ~4.5x performa
 ### How do these pros and cons apply to refactoring the original VBA script?
 
 In our analysis, we could improve the performance of our code by several times which will allow us to scale the solution to perform a complete stock market analysis. 
-We can clearly see and measure how by refactoring our code we were able to reuse some of the code we had but still achieve the objective in a simpler more efficient way. 
+
+We did have to spend more time looking at the original code to identify what could be refactored and we were able to start forming ideas that will allow us in the future to avoid potential performance impacts like nested loops.
+
+In this case, by leveraging timers we were able to quickly assess if refactoring would have an immediate and noticeable impact or not.
 
 ## Sources
 
