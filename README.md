@@ -1,5 +1,5 @@
-# Module 2 Challenge : Stock Analysis
-*Performing financial analysis on specific **stocks** to help Steve and his family make informed investment and portfolio diverstification decisions.*
+# Module 2 Challenge: Stock Analysis
+*Performing financial analysis on specific **stocks** to help Steve and his family make informed investment and portfolio diversification decisions. *
 
 ## Table of Contents
 
@@ -15,13 +15,13 @@
 
 For this project we analyzed stocks for 12 Companies by using data for 2017 and 2018 in Excel leveraging VBA. 
 
-As part of this analysis we calculated the Total Daily Volume and Returns to help Steve and his family make investment decisions.
+As part of this analysis, we calculated the Total Daily Volume and Returns to help Steve and his family make investment decisions.
 
 After delivering a workbook enabled with VBA macros that works for these 12 companies. Steve decided he wants to expand the scope of the analysis to all stocks in the stock market. To ensure that our code will scale and suffice the new requirements, we will have to refactor our code to optimize it to run for a larger dataset. 
 
 ## Results
 
-After analysing our code, we identified that even when it was working as inteded, there were better ways to perform the analysis. Refactoring our code, would allow us to expand the scope of the analysis in the future to all the stocks in the stockmarket. 
+After analyzing our code, we identified that even when it was working as intended, there were better ways to perform the analysis. Refactoring our code, would allow us to expand the scope of the analysis in the future to all the stocks in the stock market. 
 
 Refactoring the code would allow us to speed up the calculation process, make our code more dynamic and ensure that our compute resources would be better utilized. 
 
@@ -141,7 +141,7 @@ Looking at our performance improvements for 2018 we can observe a ~4.5x performa
 
 - Advantages
   - Performance can improve if the right decisions are made during refactoring code
-  - Unnecesary code can be removed allowing the code to run using less computing resources
+  - Unnecessary code can be removed allowing the code to run using fewer computing resources
   - Taking a new look after the main objective of the code has been achieved can result in a simpler solution hence easier to maintain
 
 - Disadvantages
